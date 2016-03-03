@@ -9,3 +9,108 @@ Data/webdav.lic
 Databases/LDF/
 Databases/MDF/
 Databases/Scripts/
+Website/sitecore modules/Web/ExperienceExplorer/Assets/images/journey-mode.png
+Website/sitecore modules/Web/ExperienceExplorer/Assets/images/loading.gif
+Website/sitecore modules/Web/ExperienceExplorer/Assets/images/mode.png
+Website/sitecore modules/Web/ExperienceExplorer/Assets/images/no-image.jpg
+Website/sitecore modules/Web/ExperienceExplorer/Assets/images/sc-edit.png
+Website/sitecore modules/Web/ExperienceExplorer/Assets/images/star.png
+Website/sitecore modules/Web/ExperienceExplorer/Assets/images/views.png
+Website/sitecore modules/Web/ExperienceExplorer/Assets/vendors.min.js
+Website/sitecore modules/Web/ExperienceExplorer/Assets/vendors.min.js.map
+Website/sitecore modules/Web/ExperienceExplorer/Assets/vendors/jquery-ui/css/jquery-ui-1.9.1.custom.css
+Website/sitecore modules/Web/ExperienceExplorer/Commands/ExplorerMode.js
+Website/sitecore modules/Web/ExperienceExplorer/Controls/ExpEditor.aspx
+Website/sitecore modules/Web/ExperienceExplorer/Controls/ExpExplorerExtender.ascx
+Website/sitecore modules/Web/ExperienceExplorer/Controls/ExpFooter.ascx
+Website/sitecore modules/Web/ExperienceExplorer/Controls/ExpHeader.ascx
+Website/sitecore modules/Web/ExperienceExplorer/Controls/ExpViewer.aspx
+Website/sitecore modules/Web/ExperienceExplorer/Controls/GlobalHeader.ascx
+Website/sitecore modules/Web/ExperienceExplorer/Dialogs/SelectUser.xaml.xml
+Website/sitecore modules/Web/ExperienceExplorer/Services/ContentService.asmx
+Website/sitecore modules/Web/ExperienceExplorer/Services/Service.asmx
+Website/sitecore/Copyrights/AntiCSRF_MSPL.txt
+Website/sitecore/Copyrights/Antlr3_BSD.txt
+Website/sitecore/Copyrights/Apache.NOTICE.txt
+Website/sitecore/Copyrights/Backbone_MIT.txt
+Website/sitecore/Copyrights/Base_MIT.txt
+Website/sitecore/Copyrights/Bootstrap-modal_Apache.txt
+Website/sitecore/Copyrights/Bootstrap-slider_Apache.txt
+Website/sitecore/Copyrights/Bootstrap-slider_Apache_Notice.txt
+Website/sitecore/Copyrights/Bootstrap_Apache.txt
+Website/sitecore/Copyrights/Canvas2Image_MIT.txt
+Website/sitecore/Copyrights/Code Project - .NET Useful Functional Class Library_CPOL.html
+Website/sitecore/Copyrights/Code Project - .NET's ThreadPool Class_CPOL.html
+Website/sitecore/Copyrights/Cookies_MIT.txt
+Website/sitecore/Copyrights/CsQuery_MIT.txt
+Website/sitecore/Copyrights/Date_MIT.txt
+Website/sitecore/Copyrights/DotNetOpenAuth_MSPL.txt
+Website/sitecore/Copyrights/EcmaScript.NET.modified_MPL.txt
+Website/sitecore/Copyrights/ExplorerCanvas_Apache.txt
+Website/sitecore/Copyrights/Facebook SDK for .NET_MSPL.txt
+Website/sitecore/Copyrights/Facebook-dotnet-solution_Apache.txt
+Website/sitecore/Copyrights/Facebook-dotnet-solution_Apache_Notice.txt
+Website/sitecore/Copyrights/Flotr_MIT.txt
+Website/sitecore/Copyrights/Google OAuth2 API_Apache.txt
+Website/sitecore/Copyrights/Google OAuth2 API_Apache_Notice.txt
+Website/sitecore/Copyrights/Google-apis_Apache.txt
+Website/sitecore/Copyrights/Google-apis_Apache_Notice.txt
+Website/sitecore/Copyrights/Googleplus API_Apache.txt
+Website/sitecore/Copyrights/Googleplus API_Apache_Notice.txt
+Website/sitecore/Copyrights/Hammock_MIT.txt
+Website/sitecore/Copyrights/HtmlAgilityPack_MPL.txt
+Website/sitecore/Copyrights/Jasmine_MIT.txt
+Website/sitecore/Copyrights/JsonNET_MIT.txt
+Website/sitecore/Copyrights/Knockout-jQueryUI_MIT.txt
+Website/sitecore/Copyrights/KnockoutJS_MIT.txt
+Website/sitecore/Copyrights/Knockout_MIT.txt
+Website/sitecore/Copyrights/LinkedIn_notice.txt
+Website/sitecore/Copyrights/Log4Net_Apache.txt
+Website/sitecore/Copyrights/Lucene.Net.Contrib.Snowball_BSD.txt
+Website/sitecore/Copyrights/Lucene.Net_Apache.txt
+Website/sitecore/Copyrights/Microsoft.Aspnet.Web.Optimization_rtw_enu.htm
+Website/sitecore/Copyrights/Modernizr_MIT.txt
+Website/sitecore/Copyrights/MongoDBCSharpDriver_Apache.txt
+Website/sitecore/Copyrights/Mvp.Xml_BSD.txt
+Website/sitecore/Copyrights/NVelocity_Apache.txt
+Website/sitecore/Copyrights/Ninject_Apache.txt
+Website/sitecore/Copyrights/NodaTime_Apache.txt
+Website/sitecore/Copyrights/PhantomJS_BSD.txt
+Website/sitecore/Copyrights/Prototype_MIT.txt
+Website/sitecore/Copyrights/Qunit_MIT.txt
+Website/sitecore/Copyrights/RequireJS_BSD.txt
+Website/sitecore/Copyrights/Select2_Apache.txt
+Website/sitecore/Copyrights/TweetSharp_MIT.txt
+Website/sitecore/Copyrights/Underscore_MIT.txt
+Website/sitecore/Copyrights/Yahoo UI Library_BSD.txt
+Website/sitecore/Copyrights/Yahoo.Yui.Compressor_BSD.txt
+Website/sitecore/Copyrights/almond_MIT.txt
+Website/sitecore/Copyrights/backbone.layoutmanager_MIT.txt
+Website/sitecore/Copyrights/basketjs_MIT.txt
+Website/sitecore/Copyrights/blanketjs_MIT.txt
+Website/sitecore/Copyrights/d3_BSD.TXT
+Website/sitecore/Copyrights/es5-shim_MIT.txt
+Website/sitecore/Copyrights/flexie_MIT.txt
+Website/sitecore/Copyrights/hammerjs_MIT.txt
+Website/sitecore/Copyrights/jQuery.Easing_BSD.txt
+Website/sitecore/Copyrights/jQuery.Elastislide_MIT.txt
+Website/sitecore/Copyrights/jQuery.dialogextend_MIT.txt
+Website/sitecore/Copyrights/jQuery.dynatree_MIT.txt
+Website/sitecore/Copyrights/jQuery.filedrop_MIT.txt
+Website/sitecore/Copyrights/jQuery.fileupload_MIT.txt
+Website/sitecore/Copyrights/jQuery.iframe-transport_MIT.txt
+Website/sitecore/Copyrights/jQuery.jCarousel_MIT.txt
+Website/sitecore/Copyrights/jQuery.linedtextarea_MIT.txt
+Website/sitecore/Copyrights/jQuery.migrate_MIT.txt
+Website/sitecore/Copyrights/jQuery.mockjax_MIT.txt
+Website/sitecore/Copyrights/jQuery.mousewheel_MIT.txt
+Website/sitecore/Copyrights/jQuery.oktips_MIT.txt
+Website/sitecore/Copyrights/jQuery.qtip_MIT.txt
+Website/sitecore/Copyrights/jQuery.splitter_MIT.txt
+Website/sitecore/Copyrights/jQuery.tmpl_MIT.txt
+Website/sitecore/Copyrights/jQuery.ui_MIT.txt
+Website/sitecore/Copyrights/jQuery.watermark_MIT.txt
+Website/sitecore/Copyrights/jQuery.xml2json_MIT.txt
+Website/sitecore/Copyrights/jQuery_MIT.txt
+Website/sitecore/Copyrights/jquery.battatech.excelexport_MIT.txt
+Website/sitecore/
