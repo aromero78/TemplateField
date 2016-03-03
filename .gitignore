@@ -1,0 +1,11 @@
+Data/debug/
+Data/diagnostics/
+Data/indexes/
+Data/license.xml
+Data/logs/
+Data/tools/
+Data/viewstate/
+Data/webdav.lic
+Databases/LDF/
+Databases/MDF/
+Databases/Scripts/
