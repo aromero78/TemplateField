@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website(2)", "Website\", "{
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52425"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Clients\TemplateField\Website\"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52425\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_52425"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Clients\TemplateField\Website\"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52425\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "52425"
+		SlnRelativePath = "Website\"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateField.UI", "TemplateField.UI\TemplateField.UI.csproj", "{E8F59085-3E6B-40E6-B691-4263DB21C402}"
