@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {1C598F8C-F94D-4C74-8F8E-7E3754E938E8}
+database: core
+path: /sitecore/client/Your Apps/RepeatableTemplates
+parent: {E9A53290-8618-43EC-9A4B-7DA2AF424800}
+name: RepeatableTemplates
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----version----
+language: en
+version: 1
+revision: ecdbc077-eea1-4a11-a568-cbf78f06b483
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160304T021338Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ecdbc077-eea1-4a11-a568-cbf78f06b483
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160304T021348Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

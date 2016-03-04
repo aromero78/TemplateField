@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {0FBA622D-3122-48FD-80FC-307E9ADA6B29}
+database: core
+path: /sitecore/client/Your Apps/RepeatableTemplates/RepeatableTemplateDialog/PageSettings/Cancel
+parent: {79C482B7-62BC-4F69-9252-0FDC7ACD2D1C}
+name: Cancel
+master: {00000000-0000-0000-0000-000000000000}
+template: {879651F5-0341-47DA-B7F7-DC127DF5FFCC}
+templatekey: BackButton Parameters
+
+----field----
+field: {AC264D78-D730-4C59-8B10-2D8A67E76AE4}
+name: Id
+key: id
+content-length: 6
+
+Cancel
+----version----
+language: en
+version: 1
+revision: c926798e-3e94-4b5c-8042-4efeddf0a41c
+
+----field----
+field: {C06099DE-1D23-4D1C-B7A7-267B0306FFC8}
+name: Text
+key: text
+content-length: 6
+
+Cancel
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160304T022051Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c926798e-3e94-4b5c-8042-4efeddf0a41c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160304T034605Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

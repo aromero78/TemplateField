@@ -1,0 +1,32 @@
+﻿@using Sitecore;
+@using Sitecore.Data;
+@using Sitecore.Data.Templates;
+@using Sitecore.Diagnostics;
+@using Sitecore.Data.Items;
+@using Sitecore.Web.UI.Sheer;
+@using Sitecore.Web.UI.HtmlControls;
+@using Sitecore.Shell.Applications;
+@using Sitecore.Shell.Applications.ContentEditor;
+@using Sitecore.Shell.Applications.ContentEditor.Pipelines.RenderContentEditor;
+@using Sitecore.Data;
+
+@using Sitecore.Globalization
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources
+@using Sitecore.Data
+@using Sitecore.Web.UI
+@using Sitecore.Web.UI.Controls.Common.JqueryUiUserControls
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var userControl = this.Html.Sitecore().Controls().GetJqueryUiUserControl(this.Model.Rendering);
+    userControl.Class = "sc-templateRenderer";
+    userControl.Requires.Script("RepeatableTemplates", "TemplateRenderer.js");
+
+    var templateId = userControl.GetString("Template");
+    var contentLanguage = userControl.GetString("ContentLanguage");
+    var selectedItemIndex = userControl.GetString("SelectedItemIndex");
+    var selectedItemJSON = userControl.GetString("SelectedItemJSON");
+}      
+@iMedia.SC.UI.TemplateField.GetRenderedTemplateHtml(templateId, selectedItemJSON, selectedItemIndex);

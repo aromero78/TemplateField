@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {87CCAFCE-C12A-4599-9BA0-CD961171A0EF}
+database: core
+path: /sitecore/client/Your Apps/RepeatableTemplates/Speak-ListPage
+parent: {1C598F8C-F94D-4C74-8F8E-7E3754E938E8}
+name: Speak-ListPage
+master: {00000000-0000-0000-0000-000000000000}
+template: {D7CF8B7E-083D-4351-AEF2-2BCD2D794826}
+templatekey: Speak-ListPage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 696
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{C03E9CF5-EE02-4B11-8F06-8E124CF3F6CE}" par="Id=BackButton1" uid="{D1C97B3B-3F61-4C23-AEC0-84651F635E82}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1" uid="{C1A4C090-C875-44EF-84A5-F06D808D0DFC}" />
+    <r id="{40D5B875-6A71-4F02-90AB-13C617375AE1}" par="Id=DropDownButton1" uid="{D21761ED-3401-4E2D-AA12-A1EA0D472E4A}" />
+    <r id="{33CAAE03-25A2-4917-8489-AEACC6AA1E54}" par="Id=HyperlinkButton1" uid="{AE5ED65D-AFBA-44D1-A88D-A15AFC0772E7}" />
+  </d>
+  <d id="{3AC0D3A4-D6AE-429F-A79C-F42157D0004E}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}" />
+</r>
+----version----
+language: en
+version: 1
+revision: a47eca81-bdac-40f3-a0ee-1ab2387362ca
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 14
+
+Speak-ListPage
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160304T024803Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a47eca81-bdac-40f3-a0ee-1ab2387362ca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160304T025236Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

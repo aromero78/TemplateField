@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Text;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
 using System.Web;
+using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Xml;
 
@@ -20,7 +23,7 @@ using Sitecore.Data;
 
 using Control = Sitecore.Web.UI.HtmlControls.Control;
 
-namespace TemplateField.UI
+namespace iMedia.SC.UI
 {
     public class TemplateField : Control, IContentField
     {
@@ -36,6 +39,67 @@ namespace TemplateField.UI
                 Assert.ArgumentNotNull(value, "value");
                 ViewState["Source"] = value;
             }
+        }
+
+        public static string GetRenderedTemplateHtml(string TemplateID, string SelectedItemJSON, string ItemIndex) {
+            Guid TemplateGUID = new Guid();
+            
+            Assert.IsTrue(Guid.TryParse(TemplateID, out TemplateGUID), "template id is not a guid");
+
+            Item TemplateItem = Sitecore.Context.Database.GetItem(new ID(TemplateGUID));
+
+            Assert.IsNotNull(TemplateItem, "Template item not found");
+
+            Sitecore.Data.Templates.Template template = Sitecore.Data.Managers.TemplateManager.GetTemplate(TemplateItem);
+                  
+            EditorFormatter eFormatter = new EditorFormatter();
+                  
+            Sitecore.Data.Templates.TemplateSection[] sections = template.GetSections();
+
+            HtmlGenericControl templateContainer = new HtmlGenericControl {
+                ID = "TemplateContainer", 
+                TagName = "div"
+            };
+
+            templateContainer.Attributes.Add("class", "TemplateContainer");
+            templateContainer.Attributes.Add("ItemIndex", ItemIndex.ToString());
+
+            JArray SelectItemValues = null;
+
+            if(!string.IsNullOrEmpty(SelectedItemJSON))
+                SelectItemValues = JArray.Parse(SelectedItemJSON);
+
+            for (int i = 0; i < sections.Length; i++)
+            {
+                Sitecore.Data.Templates.TemplateSection s = sections[i];
+                Sitecore.Shell.Applications.ContentManager.Editor.Section section = new Sitecore.Shell.Applications.ContentManager.Editor.Section(s);
+
+                if (SelectItemValues != null)
+                {
+                    foreach (Sitecore.Shell.Applications.ContentManager.Editor.Field field in section.Fields)
+                    {
+                        if (SelectItemValues[field.TemplateField.Name] != null)
+                        {
+                            field.Value = SelectItemValues.Value<string>(field.TemplateField.Name);
+                            //field.ItemField.Value = SelectItemValues.Value<string>(field.TemplateField.Name);
+                        }
+                    }
+                }
+
+                eFormatter.RenderSection(section, templateContainer, false);
+            }
+
+            string returnString = "";
+            using (TextWriter stringWriter = new StringWriter())
+            {
+                using (HtmlTextWriter renderOnMe = new HtmlTextWriter(stringWriter))
+                {
+                    templateContainer.RenderControl(renderOnMe);
+                    returnString = stringWriter.ToString();
+                }
+            }
+
+            return returnString;
         }
 
         public string IDRoot { get; set; }
@@ -127,28 +191,6 @@ namespace TemplateField.UI
                 root.Controls.Add(templateContainer);
 
                 this.Controls.Add(root);
-
-                /*Sitecore.Data.Templates.Template template = Sitecore.Data.Managers.TemplateManager.GetTemplate(TemplateItem);
-                
-                EditorFormatter eFormatter = new EditorFormatter();
-                
-                Sitecore.Data.Templates.TemplateSection[] sections = template.GetSections();
-
-                for (int i = 0; i < sections.Length; i++)
-                {
-                    Sitecore.Data.Templates.TemplateSection s = sections[i];
-                    Sitecore.Shell.Applications.ContentManager.Editor.Section section = new Sitecore.Shell.Applications.ContentManager.Editor.Section(s);
-                    
-                    eFormatter.RenderSection(section, templateContainer, false);
-                }
-
-                root.Controls.Add(templateContainer);
-                
-                var dataContainer = new HtmlGenericControl
-                {
-                    TagName = "div",
-                    ID = "dataContainer"
-                };*/
             }
 
             if (templateContainer == null)

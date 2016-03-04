@@ -3,9 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website(2)", "Website\", "{7FC4E6C1-0345-41C3-9D05-7CAC511A7D86}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{7FC4E6C1-0345-41C3-9D05-7CAC511A7D86}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{e8f59085-3e6b-40e6-b691-4263db21c402}|TemplateField.UI.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52425"
 		Debug.AspNetCompiler.PhysicalPath = "Website\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52425\"
@@ -24,7 +25,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website(2)", "Website\", "{
 		SlnRelativePath = "Website\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateField.UI", "TemplateField.UI\TemplateField.UI.csproj", "{E8F59085-3E6B-40E6-B691-4263DB21C402}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMedia.Sitecore.UI", "TemplateField.UI\iMedia.Sitecore.UI.csproj", "{E8F59085-3E6B-40E6-B691-4263DB21C402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

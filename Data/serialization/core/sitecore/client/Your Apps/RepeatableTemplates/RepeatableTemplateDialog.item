@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {D6C11497-8839-49AE-8EE2-97253CDDF5F6}
+database: core
+path: /sitecore/client/Your Apps/RepeatableTemplates/RepeatableTemplateDialog
+parent: {1C598F8C-F94D-4C74-8F8E-7E3754E938E8}
+name: RepeatableTemplateDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {F7B4EBC1-2335-4EB8-AFAE-3444923A38BE}
+name: Subthemes
+key: subthemes
+content-length: 38
+
+{F69304BA-2B80-4555-96DD-6F08559405E1}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1442
+
+<r>
+  <d id="{3AC0D3A4-D6AE-429F-A79C-F42157D0004E}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" ph="Page.Code" uid="{C6E88D36-C0C5-406C-9348-1E611BC93420}" />
+    <r id="{EFEC9CA6-C2AA-42C1-8990-CAC6E093C2EA}" ph="DialogHeader" uid="{FF75A5ED-B89D-440A-8E6E-4E2451ECC8A8}" />
+    <r id="{7643AA63-90DF-4A5E-89E3-0A08A06DBF1A}" ph="DialogFooter" uid="{D8D71F4F-27D9-4B1A-8886-515B36A8370A}" />
+    <r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{C7C1D8D5-CF30-4EF3-9099-0C29C886367D}" />
+    <r ds="{4889321F-3020-40A5-A002-04815D69106D}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="DialogHeader.Title" uid="{F239ECE9-CD0E-4221-B30D-AFB74983EEBF}" />
+    <r id="{1A4C33E2-76FB-4478-955C-6A2AC0B38A9B}" ph="DialogContent" uid="{174A17CD-4529-40D7-A6E6-9C6C99567885}" />
+    <r ds="{A9A6C2C2-8E38-4A72-BE31-674960741572}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=SaveButton" ph="DialogFooter.Buttons" uid="{A2E4F932-D463-4805-B1A7-2BF3C595D5B8}" />
+    <r ds="{0FBA622D-3122-48FD-80FC-307E9ADA6B29}" id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" ph="DialogFooter.Buttons" uid="{F3E4F367-1FED-4E08-9ACC-97897C22B165}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Border1&amp;RequiresWrite=1&amp;RequiresRead=1&amp;UsePadding=0" ph="DialogContent.Main" uid="{C6B1C07D-0046-4691-9EDF-70B9B6784477}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: a824d9e5-1968-48e9-98b9-9470f2c68cd5
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 24
+
+RepeatableTemplateDialog
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160304T021553Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a824d9e5-1968-48e9-98b9-9470f2c68cd5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160304T034750Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

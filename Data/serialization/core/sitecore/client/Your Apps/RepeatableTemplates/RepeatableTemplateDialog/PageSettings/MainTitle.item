@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {4889321F-3020-40A5-A002-04815D69106D}
+database: core
+path: /sitecore/client/Your Apps/RepeatableTemplates/RepeatableTemplateDialog/PageSettings/MainTitle
+parent: {79C482B7-62BC-4F69-9252-0FDC7ACD2D1C}
+name: MainTitle
+master: {00000000-0000-0000-0000-000000000000}
+template: {F68271F5-A737-4074-81BD-0E9D3064828C}
+templatekey: Text
+
+----version----
+language: en
+version: 1
+revision: f2970192-5bb3-4d0c-b85c-ea34bab92c1a
+
+----field----
+field: {2D028A16-AA3F-437F-A769-284894942747}
+name: Text
+key: text
+content-length: 20
+
+Repeateable Template
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160304T032919Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f2970192-5bb3-4d0c-b85c-ea34bab92c1a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160304T032942Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

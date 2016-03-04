@@ -117,3 +117,5 @@ Website/sitecore/
 Website/bin/Telerik.Web.UI.*
 TemplateField.UI/obj/
 Data/Submit Queue/
+Website/App_Data/
+Website/temp/
