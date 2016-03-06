@@ -119,3 +119,15 @@ TemplateField.UI/obj/
 Data/Submit Queue/
 Website/App_Data/
 Website/temp/
+Databases/
+iMedia.Sitecore.TestSite/upload/
+iMedia.Sitecore.TestSite/temp/readme.txt
+iMedia.Sitecore.TestSite/temp/
+iMedia.Sitecore.TestSite/sitecore/
+iMedia.Sitecore.TestSite/sitecore_files/
+iMedia.Sitecore.TestSite/obj/
+iMedia.Sitecore.TestSite/layouts/
+iMedia.Sitecore.TestSite/data/
+iMedia.Sitecore.TestSite/Properties/
+iMedia.Sitecore.TestSite/App_Config/
+iMedia.Sitecore.TestSite/bin/Telerik.Web.UI.*

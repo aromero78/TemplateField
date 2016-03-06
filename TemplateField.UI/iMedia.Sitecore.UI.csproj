@@ -32,16 +32,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\Website\bin\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\iMedia.Sitecore.TestSite\bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="Sitecore.Client">
-      <HintPath>..\Website\bin\Sitecore.Client.dll</HintPath>
+      <HintPath>..\iMedia.Sitecore.TestSite\bin\Sitecore.Client.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\Website\bin\Sitecore.Kernel.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\iMedia.Sitecore.TestSite\bin\Sitecore.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Rocks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a3d60f56f7d71b90, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\Anthony\Documents\Visual Studio 2015\Projects\Website\packages\Sitecore.Rocks.Client.1.5.1.8\lib\net40\Sitecore.Rocks.dll</HintPath>
@@ -91,9 +90,6 @@
       <HintPath>..\..\..\Users\Anthony\Documents\Visual Studio 2015\Projects\Website\packages\Sitecore.Rocks.Client.1.5.1.8\lib\net40\Sitecore.Rocks.VisualStudio.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Web">
-      <HintPath>..\Website\bin\Sitecore.Web.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -114,6 +110,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PageCode1.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
