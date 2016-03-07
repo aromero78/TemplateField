@@ -1,5 +1,43 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
-@{    
-}      
-<div>
-</div>
+﻿@using Sitecore.Data;
+@using Sitecore.Data.Items;
+@using Sitecore.Diagnostics;
+@using Sitecore.Mvc;
+@using Sitecore.Web.UI.Controls.Common.JqueryUiUserControls;
+@using Sitecore.Shell.Applications.ContentEditor;
+@using Sitecore.Shell.Applications.ContentEditor.Pipelines.RenderContentEditor;
+
+@using Newtonsoft.Json.Linq;
+
+@using System.Web;
+@using System.Web.UI;
+@using System.Web.UI.HtmlControls;
+@using System.Reflection;
+
+@model iMedia.SC.TestSite.Views.Speak_apps.RepeatableTemplates.TemplateRendererRenderingModel
+@{
+    var userControl = this.Html.Sitecore().Controls().GetJqueryUiUserControl(this.Model.Rendering);
+    userControl.Class = "sc-templateRenderer";
+    userControl.Requires.Script("RepeatableTemplatesJS", "TemplateRenderer.js");
+    userControl.Requires.Css("RepeatableTemplatesCSS", "TemplateRenderer.css");
+
+    JObject jItemData = new JObject();
+
+    if (!string.IsNullOrEmpty(this.Model.ItemData))
+    {
+        JArray jItemDatas = JArray.Parse(this.Model.ItemData);
+
+        jItemData = (JObject)jItemDatas[this.Model.ItemIndex];
+    }
+    
+    int[] temp = new int[1];
+
+    var TemplateID = "{6699A08F-5695-47C6-A3C6-9B2A8E3446E1}";
+
+    Guid TemplateGUID = new Guid();
+
+    Assert.IsTrue(Guid.TryParse(TemplateID, out TemplateGUID), "template id is not a guid");
+
+    ID id = new ID(TemplateGUID);
+}
+@Html.Raw(iMedia.SC.UI.TemplateField.GetRenderedTemplateHtml(id, jItemData))
+
